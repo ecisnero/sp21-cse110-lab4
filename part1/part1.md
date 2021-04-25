@@ -73,7 +73,10 @@
 
 ## Functions
 
-17) 
+17) The result of running this result will be getting back the array [2, 4 ,6]. Running modifyArray([1,2,3], doSomething), passes in the array, and the function, to modifyArray(). modifyArray accesses each element of the passed in array, callsback doSomething() to double its value, and then pushes it into newArr, and returns newArr.  
 
 ## setInterval(), setTimeout(), clearTimeout()
 
+18) part1b-question18.js
+
+19) The code outputs the numbers 1, 4, 3, 2, each in their own line. 1 outputs first because its the first line to run. 4 outputs next because it isn't given delay. 3 outputs after since it is  delayed till the next event cycle. 2 outputs last since, its given a second of delay.
